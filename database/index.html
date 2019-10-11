@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TUGAS1</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body background="pink">
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container" id="navbar">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand navbar-link"><img src="assets/img/mysql.jpg" width="200px" height="100px"></a>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li role="presentation"><a href="#home">HOME</a></li>
+          <li role="presentation"><a href="#about">ABOUT</a></li>
+          <li role="presentation"><a href="#"><i class="glyphicon glyphicon-search"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- jumbotron -->
+  <div id="background" img src='basisdata1.jpg'>
+    <div class="jumbotron">
+      <p>WELCOME TO </p>
+      <h1>SISTEM MANAJEMEN BASIS DATA</h1>
+     
+    </div>
+  </div>
+  <!-- jumbotron -->
+
+  <!-- container atas -->
+  <div id="home">
+    <div class="isi">
+      <div class="container atas">
+        <h1>SISTEM MANAJEMEN BASIS DATA</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <p class="text-justify"><strong></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <p class="text-justify"> Sistem manajemen basis data (Bahasa Inggris: database management system, DBMS), atau kadang disingkat SMBD, adalah suatu sistem atau perangkat
+              dirancang untuk mengelola suatu basis data dan menjalankan operasi terhadap data yang diminta banyak pengguna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container atas -->
+
+  <!-- container bawah -->
+  <div class="container bawah">
+      <div class="image"
+      style="background-image: url('assets/img/basisdata1.jpg')">
+  </div>
+    <h1>KOMPONEN</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/ddl.jpg" width="200px">
+        <h3>DDL</h3>
+        <p class="text-center"><strong>DDL (Data Definition Language)</strong> 
+          DDL merupakan perintah SQL yang berhubungan dengan pendefinisian suatu struktur database yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database.
+
+          Beberapa perintah dasar yang termasuk DDL ini : </br>
+          
+          <b>A. CREATE</b>
+          Perintah ini digunakan untuk membuat, termasuk  membuat database baru, tabel baru, view baru, dan kolom.
+      </br>
+          <b>B. ALTER</b>
+          Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.
+  </br>
+          <b>C. RENAME</b>
+          Perintah yang digunakan untuk merubah nama Objek
+</br>
+          <b>D. DROP</b>
+          Perintah ini digunakan untuk menghapus database dan tabel</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/dml.jpg" width="200px">
+        <h3>DML</h3>
+        <p class="text-center"><strong>DML (Data Manipulation Language)</strong> 
+        </P>
+        DML merupakan perintah SQL yang digunakan untuk proses pengolahan isi data di dalam table seperti memasukkan, merubah dan menghapus
+        isi data - dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database.
+       Perintah SQL yang termasuk dalam DML :
+   </br>
+       <b>A. UPDATE</b>
+       Perintah ini digunakan untuk memperbaharui data lama menjadi data terkini. Jika anda memiliki data yang salah atau kurang Up To Date dengan kondisi sekarang, maka dapat diubah isi datanya dengan menggunakan perintah UPDATE.
+   </br>
+       <b>B. INSERT</b>
+       perintah ini digunakan untuk menyisipkan atau memasukkan data baru ke dalam tabel. Penggunaannya setelah database dan tabel selesai dibuat.
+   </br>
+       <b>C. SELECT</b>
+       Perintah ini digunakan untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel dalam relasi. Data yang diambil dapat kita tampilkan dalam layar prompt MySQL secara langsung maupun ditampilkan pada tampilan aplikasi.
+   </br>
+       <b>D. DELETE</b>
+       Perintah ini digunakan untuk menghapus data dari tabel. Biasanya data yang dihapus adalah data yang tidak diperlukan lagi. Pada saat menghapus data, perintah yang telah dijalankan tidak dapat digagalkan, sehingga data yang telah hilang tidak dapat dikembalikan lagi.</p>
+      </div><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img class="img-circle" src="assets/img/DCL.png" width="200px">
+        <h3>DCL</h3>
+        <p class="text-center"><strong>DCL (Data Control Language)</strong>DCL merupakan perintah SQL yang berhubungan dengan manipulasi user dan hak akses (priviledges).
+        </br>
+            Perintah SQL yang termasuk dalam DCL  :
+    </br>
+            <b>A. GRANT</b>
+            Perintah ini digunakan untuk memberikan hak / izin akses oleh administrator (pemilik utama) server kepada user (pengguna biasa). Hak akses tersebut berupa hak membuat (CREATE), mengambil (SELECT), menghapsu (DELETE), mengubah (UPDATE) dan hak khusus berkenaan dengan sistem databasenya.
+        </br>   
+            <b>B. REVOKE</b>
+            perintah ini memiliki kegunaan terbalik dengan GRAND, yaitu untuk menghilangkan atau mencabut hak aksesyang telah diberikan kepada user oleh administrator.</p>
+</div>
+    </div>
+  </div>
+  <!-- container bawah -->
+
+  <!-- about -->
+  <div id="about">
+    <div class="container footer">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h1> <img src="assets/img/ddl.jpg" width="180px"></h1>
+        <h2>About Us</h2>
+        <p><img src="assets/img/instagram.jpg" width="20px">FIDAAMY</br>
+		<img src="assets/img/gmail.jpg" width="20px">fidaamy88@gmail.com</p>
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h2>Newsletter Subscription</h2>
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" value="Your Email">
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Subscribe </button>
+            </div>
+          </div>
+         
+        </div>
+    </div>
+  </div>
+  <!-- about -->
+
+  <!-- kaki -->
+  <div id="kaki">
+    <div class="container">
+      <h5 class="text-center">Informatika UMS © 2019</h5>
+    </div>
+  </div>
+  <!-- kaki -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
